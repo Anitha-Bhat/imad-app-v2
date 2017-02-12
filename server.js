@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 app.get('/container',function(req,res)
 {
-    count=count+1;
+    counter=counter+1;
  res.send(counter.tostring());   
 });
 app.get('/ui/madi.png', function (req, res) {
